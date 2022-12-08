@@ -1,7 +1,7 @@
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ItemC from './components/ItemListContainer';
+import ItemListContainer from './components/ItemListContainer';
 
 
 import Navbar1 from './components/Navbar/Navbar';
@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <div>
         <Navbar1/>
-        <ItemC/>
+        <ItemListContainer/>
       </div>
     </div>
   );

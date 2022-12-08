@@ -1,11 +1,11 @@
 import { BsFillCartFill } from "react-icons/bs";
 
 
-const Cart = () => {
+const CartWidget = () => {
     return (
       <BsFillCartFill/>
    )
 }
 
 
-export default Cart;
+export default CartWidget;
